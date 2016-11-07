@@ -3,8 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>core</groupId>
-	<artifactId>Single_Title_Validation</artifactId>
-	<version>${a.version}</version>
+	<artifactId>QA</artifactId>
+	<version>${build.version}</version>
 	<packaging>jar</packaging>
 
 	<name>Single_Title_Validation</name>
@@ -33,7 +33,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-assembly-plugin</artifactId>
-				<version>2.4</version>
+				<version>2.6</version>
 				<configuration>
 					<archive>
 						<manifest>
